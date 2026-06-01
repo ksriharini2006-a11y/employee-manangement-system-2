@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to right, #f1d248, #68c8f8);
+}
+
+.container {
+  width: 320px;
+  margin: auto;
+  margin-top: 100px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(12, 48, 95);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.dashboard {
+  padding: 20px;
+  color: white;
+}
+
+
+.form-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.form-box input {
+  width: 100%;
+}
+
+
+.table-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+td, th {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+
+.action-btn {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: purple;
+  color: white;
+}
+
+.action-btn:last-child {
+  background: red;
+}
