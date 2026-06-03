@@ -11,7 +11,7 @@ app.use(express.json());
 
 mongoose.set("strictQuery", true);
 
-mongoose.connect("mongodb://127.0.0.1:27017/ems")
+mongoose.connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/ems")
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
